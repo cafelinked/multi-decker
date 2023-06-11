@@ -1,0 +1,21 @@
+{
+  "package_name": "multi-decker",
+  "name": "Multi-Decker",
+  "description": "An add-on to create multiple empty decks in Anki",
+  "version": "1.0",
+  "author": "cafelinked",
+  "min_support_anki_version": "2.1.65",
+  "max_support_anki_version": "2.1.65+",
+  "addons": [
+    {
+      "type": "hook",
+      "hook_point": "profileLoaded",
+      "function": "multi_decker_hook"
+    }
+  ],
+  "gui_hooks": {
+    "main_window": [
+      {"function": "create_multi_decker", "hook_point": "setupMenus"}
+    ]
+  }
+}

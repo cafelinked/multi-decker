@@ -1,0 +1,14 @@
+{
+  "name": "Multi-Decker",
+  "version": "1.0",
+  "description": "An add-on to create multiple empty decks in Anki",
+  "author": "cafelinked",
+  "minAnkiVersion": "2.1.65",
+  "maxAnkiVersion": "2.1.65+",
+  "tags": [
+    "anki",
+    "decks",
+    "addon"
+  ],
+  "license": "MIT"
+}
